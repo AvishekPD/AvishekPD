@@ -1,4 +1,4 @@
-### Hello! My name is Avishek.And I am a learner
+### Hello! My name is Avishek. And I am a learner
 
 ## About Me
 <p>I started to learn programming C as my first ever <br>
@@ -13,9 +13,7 @@ Hope I will able to contribute to open source foundation!<br>
 [<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg" />][Discord]
 
 [<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg" />][Youtube]
-
 [<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/twitter.svg" />][Twitter]
-
 
 [Discord]: https://discordapp.com/user/681910716789293083 
 [Youtube]: https://www.youtube.com/channel/UCkVhowlProN9ayzEMaBEKPQ
