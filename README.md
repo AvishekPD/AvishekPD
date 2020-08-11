@@ -10,11 +10,11 @@ Hope I will able to contribute to open source foundation!<br>
 
 ---
 ## Contact or Chat with Me Here 
-[<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg" />] [Discord]
+[<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg" />][Discord]
 
-[<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg" />] [Youtube]
+[<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg" />][Youtube]
 
-[<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/twitter.svg" />] [Twitter]
+[<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/twitter.svg" />][Twitter]
 
 
 [Discord]: https://discordapp.com/user/681910716789293083 
