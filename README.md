@@ -1,6 +1,6 @@
-###Hello! My name is Avishek.And I am a learner
+### Hello! My name is Avishek.And I am a learner
 
-##About Me
+## About Me
 <p>I started to learn programming C as my first ever <br>
 programming language.I am currently as of 2020 failed my 12th<br>
 for 2 times hope will clear in 2021(thirds time a charm)<br>
@@ -9,7 +9,7 @@ world and having fun seeing source code of variouse programs.<br>
 Hope I will able to contribute to open source foundation!<br>
 
 ---
-##Connect Me Here 
+## Connect Me Here 
 [<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg"/ >] [Discord]
 
 [<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg"/ >] [Youtube]
