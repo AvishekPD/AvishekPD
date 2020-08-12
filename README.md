@@ -15,6 +15,6 @@ Hope I will able to contribute to open source foundation!<br>
 [<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg" />][Youtube]
 [<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/twitter.svg" />][Twitter]
 
-[Discord]: https://discordapp.com/chats/@me/681910716789293083 
+[Discord]: https://discordapp.com/channels/@me/681910716789293083 
 [Youtube]: https://www.youtube.com/channel/UCkVhowlProN9ayzEMaBEKPQ
 [Twitter]: https://twitter.com/KiriyamaOsu
