@@ -6,7 +6,7 @@ programming language.I am currently as of 2020 failed my 12th<br>
 for 2 times hope will clear in 2021(thirds time a charm)<br>
 So I install Gnu/Linux this year and having fun seeing Open Source<br>
 world and having fun seeing source code of variouse programs.<br>
-Hope I will able to contribute to open source foundation!<br>
+Hope I will able to contribute to open source community!<br>
 
 ---
 ## Contact or Chat with Me Here 
