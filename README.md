@@ -1,4 +1,4 @@
-<!--### Hello! My name is Avishek. And I am a learner-->
+### Hello! My name is Avishek. And I am a learner
 
 ## About Me
 <p>I started to learn programming C as my first ever <br>
