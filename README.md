@@ -1,6 +1,6 @@
-### Hello! My name is Avishek. And I am a learner
+### Hello! My name is Avishek, And I am a learner
 <p align="centre">
-	<img width="1000"
+	<img width="969"
 	 src="./picture.jpg">
 </p>
 
@@ -9,9 +9,9 @@
 Hello there! My name is Avishek and I am currently learning various stuff. I like to programme in C and python. Machine will 100% will rule the humanity. Hail!Robotism! <br>
 Currently learning to become h@k0r!. Want to learn Rust and Java!<br>
 Man .NET is highly in demand~<br>
-having daily job crisis like any other programming newbie. Hope this open source community will accept me.<br>
+Having daily job crisis like any other programming newbie. Hope this open source community will accept me.<br>
 Also I love to rice my machine randomly once or twice a month, so check them out too!<br>
-You can char or have a talk with me by using the link below!
+You can chat or have a talk with me by using the link below! Beware imma Weeb!
 
 ---
 ## Contact or Chat with Me Here 
