@@ -1,19 +1,23 @@
 ### Hello! My name is Avishek. And I am a learner
+<p align="centre">
+	<img width="1000"
+	 src="./picture.jpg">
+</p>
 
 ## About Me
-<p>I started to learn programming C as my first ever <br>
-programming language.I am currently as of 2020 failed my 12th<br>
-for 2 times hope will clear in 2021(thirds time a charm)<br>
-So I install Gnu/Linux this year and having fun seeing Open Source<br>
-world and having fun seeing source code of variouse programs.<br>
-Hope I will able to contribute to open source community!<br>
+<p align="left">
+Hello there! My name is Avishek and I am currently learning various stuff. I like to programme in C and python. Machine will 100% will rule the humanity. Hail!Robotism! <br>
+Currently learning to become h@k0r!. Want to learn Rust and Java!<br>
+Man .NET is highly in demand~<br>
+having daily job crisis like any other programming newbie. Hope this open source community will accept me.<br>
+Also I love to rice my machine randomly once or twice a month, so check them out too!<br>
+You can char or have a talk with me by using the link below!
 
 ---
 ## Contact or Chat with Me Here 
-[<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg" />][Discord]
-
-[<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg" />][Youtube]
-[<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/twitter.svg" />][Twitter]
+- [<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg" />][Discord]
+- [<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg" />][Youtube]
+- [<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/twitter.svg" />][Twitter]
 
 [Discord]: https://discordapp.com/channels/@me/681910716789293083 
 [Youtube]: https://www.youtube.com/channel/UCkVhowlProN9ayzEMaBEKPQ
