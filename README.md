@@ -13,6 +13,15 @@ Having daily job crisis like any other programming newbie. Hope this open source
 Also I love to rice my machine randomly once or twice a month, so check them out too!<br>
 You can chat or have a talk with me by using the link below! Beware imma Weeb!
 
+## Install my curr config
+
+`For ARCH and ARCH based only` <br>
+To install my current working enviourment I am using right now, just copy thne command below and paste it in you term
+
+```shell
+	sh -c "$(wget -O- https://raw.githubusercontent.com/AvishekPD/AvishekPD/main/install.sh)"
+```
+
 ---
 ## Contact or Chat with Me Here 
 - [<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg" />][Discord]
