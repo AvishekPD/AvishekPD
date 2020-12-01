@@ -30,7 +30,6 @@ sudo pacman -S --needed xorg xorg-xinit xorg-drivers $DRI
 
 # install fonts
 $FONTS 
-unzip ./fonts.zip 
 mkdir -p ~/.local/share/fonts
 mv /fonts/* .local/share/fonts
 fc-cache
