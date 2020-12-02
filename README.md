@@ -17,6 +17,7 @@ You can chat or have a talk with me by using the link below! Beware imma Weeb!
 
 `For ARCH and ARCH based only` <br>
 To install my current working enviourment I am using right now, just copy thne command below and paste it in you term
+(must have wget installed)
 
 ```shell
 	sh -c "$(wget -O- https://raw.githubusercontent.com/AvishekPD/AvishekPD/main/install.sh)"
