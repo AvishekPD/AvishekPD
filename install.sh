@@ -96,7 +96,7 @@ esac
 #install zsh and make is default
 sudo pacman -S --needed zsh
 echo "ZSH! installed now installing oh-my-zsh, follow the steps by them now." && sleep 3
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # done 
 echo "PLEASE MAKE .xinitrc TO LAUNCH dwm, install libxft-bgra(recommened git version) from aur if st is crashing for you."
