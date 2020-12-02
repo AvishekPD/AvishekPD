@@ -17,6 +17,7 @@ sudo pacman -S --needed git base-devel
 # choose video driver
 echo "1) xf86-video-intel 	2) xf86-video-amdgpu 3) Skip"
 read -r -p "Choose you video card(default 1)(will not re-install): " vid
+
 if [ $vid == 1 ]
 then 
 	DRI=xf86-video-intel
