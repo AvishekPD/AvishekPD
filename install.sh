@@ -24,6 +24,7 @@ then
 	DRI=
 else
 	DRI=xf86-video-intel
+fi	
 
 # install xorg if not installed
 sudo pacman -S --needed xorg xorg-xinit xorg-drivers $DRI
