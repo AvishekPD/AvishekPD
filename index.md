@@ -1,6 +1,6 @@
-## Welcome to my page 
+# Welcome to my page 
 
-##About Me 
+### About Me 
 <p>
 My name is Avishek Prasad, and I am currently a student from <b>India</b> <br>
 
