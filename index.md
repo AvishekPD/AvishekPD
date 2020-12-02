@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to my page 
 
-You can use the [editor on GitHub](https://github.com/AvishekPD/AvishekPD/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+##About Me 
+<p>
+My name is Avishek Prasad, and I am currently a student from <b>India</b> <br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I am currently studying for Diploma in Computer Science
 
-### Markdown
+My Curr Skills include 
+* _Bash_ [a year] 
+* _C_ [a year]
+* _Python_ [month]
+* _Java_ 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Learning 
+* _Rust_
+* _.NET stuff_
 
-```markdown
-Syntax highlighted code block
+And I am exprienced in Gnu/Linux.<br>
+I like FOSS and Open Stuff.<br>
+I am sometime a distro hopper too.<br>
+`vim gang.`<br>
 
-# Header 1
-## Header 2
-### Header 3
+# Currently Working On
+Nothing
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AvishekPD/AvishekPD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Github Repo 
+Checkout my repo and stuff I did there [here](https://github.com/AvishekPD/)
