@@ -96,5 +96,4 @@ echo "ZSH! installed now installing oh-my-zsh, follow the steps by them now" && 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # done 
-echo "PLEASE MAKE .xinitrc TO LAUNCH dwm"
-
+echo "PLEASE MAKE .xinitrc TO LAUNCH dwm, install libxft-bgra from aur if st is crashing for you"
