@@ -1,4 +1,4 @@
-### Hello! My name is Avishek, And I am a learner
+<title> Hello! My name is Avishek, And I am a learner </title>
 <p align="centre">
 	<img width="969"
 	 src="./picture.jpg">
@@ -16,12 +16,12 @@ Having daily job crisis like any other programming newbie. Hope this open source
 
 Also I love to rice my machine randomly once or twice a month, so check them out too!<br>
 
-You can chat or have a talk with me by using the link below! Beware imma Weeb! <br>
+You can chat or have a talk with me by using the social links given below! Beware imma Weeb! <br>
 
 ## Install my current config
 
 `For ARCH and ARCH based only` <br>
-To install my current working enviourment I am using right now, just copy thne command below and paste it in you term
+To install my current working enviourment I am using right now, just copy then command below and paste it in you term<br>
 <b><i>(must have wget installed)</i></b>.
 
 ```shell
