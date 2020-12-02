@@ -7,12 +7,16 @@ ST="git clone https://github.com/AvishekPD/st ~/.srcs/st"
 TILDA="git clone https://github.com/AvishekPD/tidla ~/.srcs/tilda"
 FONTS="git clone https://gitbuh.com/AvishekPD/fonts ~/.srcs/fonts"
 
+# does full system update
+echo "Doing a system update, cause stuff may break if not latest version"
+sudo pacman -Syu
+
 # install base-devel if not installed
 sudo pacman -S --needed git base-devel
 
 # choose video driver
-echo "1) xf86-video-intel 	2) xf86-video-amdgpu 3)Skip"
-read -r -p "Choose you video card(default 1)(will not re-install)" vid
+echo "1) xf86-video-intel 	2) xf86-video-amdgpu 3) Skip"
+read -r -p "Choose you video card(default 1)(will not re-install): " vid
 if [ $vid == 1 ]
 then 
 	DRI=xf86-video-intel
@@ -42,7 +46,7 @@ cd ~/.srcs/st/
 sudo make clean install
 
 # install yay
-read -r -p "Want to install yay [Yes/no]" yay
+read -r -p "Want to install yay [Yes/no]: " yay
 
 case $yay in
 [yY][eE][sS]|[yY])
@@ -63,7 +67,7 @@ case $yay in
 	;;
 esac
 
-read -r -p "Do you want to install tilda? [Y/n]" tilda
+read -r -p "Do you want to install tilda? [Yes/no]: " tilda
 
 case $tilda in
 [yY][eE][sS]|[yY])
@@ -90,11 +94,12 @@ case $tilda in
 	sudo make install
 	echo "Now installing picom"
 	;;
+esac
 
 #install zsh and make is default
 sudo pacman -S --needed zsh
-echo "ZSH! installed now installing oh-my-zsh, follow the steps by them now" && sleep 3
+echo "ZSH! installed now installing oh-my-zsh, follow the steps by them now." && sleep 3
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # done 
-echo "PLEASE MAKE .xinitrc TO LAUNCH dwm, install libxft-bgra from aur if st is crashing for you"
+echo "PLEASE MAKE .xinitrc TO LAUNCH dwm, install libxft-bgra(recommened git version) from aur if st is crashing for you."
