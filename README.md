@@ -1,6 +1,6 @@
 ### Hello! My name is Avishek, And I am a learner
 ---
-<p align="centre">
+<p align="center">
 	<img 
 		width="512"
 		height ="288"
