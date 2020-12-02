@@ -78,11 +78,9 @@ case $tilda in
 	../autogen.sh --prefix=/usr
 	make --silent
 	sudo make install
-	echo "Now installing picom"
 	;;
 
 [nN][oO]|[nN])
-	echo "Okay...installing picom"
 	;;
 
 [*])
@@ -92,7 +90,6 @@ case $tilda in
 	../autogen.sh --prefix=/usr
 	make --silent
 	sudo make install
-	echo "Now installing picom"
 	;;
 esac
 
