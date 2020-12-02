@@ -2,8 +2,8 @@
 echo "Welcome!" && sleep 2
 
 # aliases
-DWM="git clone https://github.com/AvishekPD/dwm ~/.srcs/dwm"
-ST="git clone https://github.com/AvishekPD/st ~/.srcs/st"
+WM="git clone https://github.com/AvishekPD/dwm ~/.srcs/dwm"
+TERM="git clone https://github.com/AvishekPD/st ~/.srcs/st"
 TILDA="git clone https://github.com/AvishekPD/tidla ~/.srcs/tilda"
 FONTS="git clone https://gitbuh.com/AvishekPD/fonts ~/.srcs/fonts"
 
@@ -40,7 +40,7 @@ mkdir -p ~/.local/share/fonts
 mv /fonts/* .local/share/fonts
 fc-cache
 
-mkdir -p ~/.srcs/ && $DWM & $ST
+mkdir -p ~/.srcs/ && $WM & $TERM
 cd ~/.srcs/dwm/
 sudo make clean install
 cd ~/.srcs/st/
@@ -100,4 +100,4 @@ echo "ZSH! installed now installing oh-my-zsh, follow the steps by them now." &&
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # done 
-echo "PLEASE MAKE .xinitrc TO LAUNCH dwm, install libxft-bgra(recommened git version) from aur if st is crashing for you."
+echo "PLEASE MAKE .xinitrc TO LAUNCH 
