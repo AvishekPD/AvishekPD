@@ -1,4 +1,5 @@
-<title> Hello! My name is Avishek, And I am a learner </title>
+### Hello! My name is Avishek, And I am a learner
+---
 <p align="centre">
 	<img width="969"
 	 src="./picture.jpg">
