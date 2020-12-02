@@ -1,7 +1,9 @@
 ### Hello! My name is Avishek, And I am a learner
 ---
 <p align="centre">
-	<img width="969"
+	<img 
+		width="800"
+		height ="600"
 	 src="./picture.jpg">
 </p>
 
