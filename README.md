@@ -2,8 +2,8 @@
 ---
 <p align="centre">
 	<img 
-		width="800"
-		height ="600"
+		width="500"
+		height ="500"
 	 src="./picture.jpg">
 </p>
 
