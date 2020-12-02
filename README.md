@@ -13,6 +13,8 @@ Hello there! My name is Avishek and I am currently learning various stuff. I lik
 
 Currently learning to become h@k0r!. Want to learn Rust and Java!<br>
 
+Loves <b><i>C</i></b> very very much!
+
 Man this .NET is highly in demand~<br>
 
 Having daily job crisis like any other programming newbie. Hope this open source community will accept me.<br>
