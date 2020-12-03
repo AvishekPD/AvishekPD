@@ -5,7 +5,7 @@ echo "Welcome!" && sleep 2
 WM="git clone https://github.com/AvishekPD/dwm ~/.srcs/dwm"
 TERM="git clone https://github.com/AvishekPD/st ~/.srcs/st"
 TILDA="git clone https://github.com/AvishekPD/tidla ~/.srcs/tilda"
-FONTS="git clone https://gitbuh.com/AvishekPD/fonts ~/.srcs/fonts"
+FONTS="git clone https://github.com/AvishekPD/fonts ~/.srcs/fonts"
 
 # does full system update
 echo "Doing a system update, cause stuff may break if not latest version"
