@@ -2,10 +2,10 @@
 echo "Welcome!" && sleep 2
 
 # aliases
-CLIENT=${CLIENT: https://github.com/AvishekPD${PKG}}
-WM=${WM: dwm}
-EMU=${EMU: st}
-FONT=${FONT: fonts}
+CLIENT=https://github.com/AvishekPD
+WM=dwm
+EMU=st
+FONT=fonts
 
 # does full system update
 echo "Doing a system update, cause stuff may break if not latest version"
@@ -41,16 +41,16 @@ sudo pacman -S --needed feh xorg xorg-xinit xorg-xinput $DRI
 mkdir -p '~/.local/share/fonts'
 mkdir -p '~/.srcs'
 
-git clone "$CLIENT" "$FONT" ~/.srcs/"$FONT"
+git clone$CLIENT/$FONT ~/.srcs/$FONT
 mv ~/.srcs/fonts/* .local/share/fonts/
 fc-cache
 clear 
 
-git clone "$CLIENT" "$WM" ~/.src/"$WM"
-cd ~/"$WM" && sudo make clean install
+git clone$CLIENT/$WM ~/.src/$WM
+cd ~/$WM && sudo make clean install
 
-git clone "$CLIENT" "$EMU" ~.src/"$EMU"
-cd ~/"$EMU" && sudo make clean install 
+git clone $CLIENT/$EMU ~.src/$EMU
+cd ~/$EMU && sudo make clean install 
 
 # install yay
 read -r -p "Want to install yay [yes/no]: " yay
