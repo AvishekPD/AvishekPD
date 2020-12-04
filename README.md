@@ -2,8 +2,7 @@
 ---
 <p align="center">
 	<img 
-		width="512"
-		height ="288"
+		width="969"
 	 src="./picture.jpg">
 </p>
 
