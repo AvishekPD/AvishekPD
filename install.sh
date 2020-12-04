@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/bash 
 echo "Welcome!" && sleep 2
 
 # aliases
-WM="git clone https://github.com/AvishekPD/dwm ~/.srcs/dwm"
-TERM="git clone https://github.com/AvishekPD/st ~/.srcs/st"
-TILDA="git clone https://github.com/AvishekPD/tidla ~/.srcs/tilda"
-FONTS="git clone https://github.com/AvishekPD/fonts ~/.srcs/fonts"
+WM='git clone https://github.com/AvishekPD/dwm ~/.srcs/dwm' 
+EMU='git clone https://github.com/AvishekPD/st ~/.srcs/st' 
+TILDA='git clone https://github.com/AvishekPD/tidla ~/.srcs/tilda'
+FONTS='git clone https://github.com/AvishekPD/fonts ~/.srcs/fonts' 
 
 # does full system update
 echo "Doing a system update, cause stuff may break if not latest version"
@@ -20,17 +20,17 @@ read -r -p "Choose you video card(default 1)(will not re-install): " vid
 
 case $vid in 
 [1])
-	DRI="xf86-video-intel"
+	DRI='xf86-video-intel'
 	;;
 
 [2])
-	DRI="xf86-video-amdgpu"
+	DRI='xf86-video-amdgpu'
 	;;
 [3])
 	DRI=""
 	;;
 [*])
-	DRI="xf86-vieo-intel"
+	DRI='xf86-vieo-intel'
 	;;
 esac
 
@@ -38,18 +38,16 @@ esac
 sudo pacman -S --needed xorg xorg-xinit xorg-drivers $DRI
 
 # install fonts, window manager and terminal
-mkdir ~/.local 
-mkdir ~/.local/share 
-mkdir ~/.local/share/fonts
-mkdir ~/.srcs
+mkdir -p '~/.local/share/fonts'
+mkdir -p '~/.srcs'
 
 $FONTS 
-mv /fonts/* .local/share/fonts/
+mv ~/.srcs/fonts/* .local/share/fonts/
 clear 
 fc-cache
 clear 
 
-$WM & $TERM
+$WM & $EMU
 cd ~/.srcs/dwm/
 sudo make clean install
 
@@ -57,12 +55,14 @@ cd ~/.srcs/st/
 sudo make clean install
 
 # install yay
-read -r -p "Want to install yay [Yes/no]: " yay
+read -r -p "Want to install yay [yes/no]: " yay
 
 case $yay in
 [yY][eE][sS]|[yY])
 	cd ~ && git clone https://aur.archlinux.org/yay.git
 	cd ~/yay/ && makepkg -si 
+
+	yay -S picom-ibhagwan-git
 	;;
 
 [nN][oO]|[nN])
@@ -70,13 +70,12 @@ case $yay in
 	;;
 
 [*])
-	cd ~ && git clone https://aur.archlinux.org/yay.git
-	cd ~/yay/ && makepkg -si 
-
-	# install picom with blur
-	yay -S picom-ibhagwan-git
+	echo "Skipping" 
+	sleep 1
 	;;
 esac
+
+yay -S libxft-bgra-git
 
 read -r -p "Do you want to install tilda? [Yes/no]: " tilda
 
@@ -95,18 +94,13 @@ case $tilda in
 	;;
 
 [*])
-	$TILDA && cd ~/.srcs/tilda
-	mkdir build
-	cd build
-	../autogen.sh --prefix=/usr
-	make --silent
-	sudo make install
+	echo "Skipping" 
+	sleep 1
 	;;
 esac
 
-#install zsh and make is default
+# install zsh and make is default
 sudo pacman -S --needed zsh
-echo "ZSH! installed now installing oh-my-zsh, follow the steps by them now." && sleep 3
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # done 
