@@ -41,12 +41,12 @@ sudo pacman -S --needed feh xorg xorg-xinit xorg-xinput $DRI
 mkdir -p ~/.local/share/fonts
 mkdir -p ~/.srcs
 
-git clone $CLIENT/$FONT ~/.srcs/$FONT
+cd ~/.srcs 
+
+git clone $CLIENT/$FONT 
 mv ~/.srcs/fonts/* .local/share/fonts/
 fc-cache
 clear 
-
-cd ~/.srcs
 
 git clone $CLIENT/$WM 
 cd ~/.srcs/$WM && sudo make clean install
