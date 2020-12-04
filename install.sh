@@ -38,8 +38,8 @@ esac
 sudo pacman -S --needed feh xorg xorg-xinit xorg-xinput $DRI
 
 # install fonts, window manager and terminal
-mkdir -p '~/.local/share/fonts'
-mkdir -p '~/.srcs'
+mkdir -p ~/.local/share/fonts
+mkdir -p ~/.srcs
 
 git clone$CLIENT/$FONT ~/.srcs/$FONT
 mv ~/.srcs/fonts/* .local/share/fonts/
