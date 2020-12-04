@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/env bash
 echo "Welcome!" && sleep 2
 
 # aliases
@@ -51,10 +51,10 @@ clear
 git clone $CLIENT/$WM 
 cd $WM/ && sudo make clean install
 
-cd ~/.srcs 
+cd ~/.srcs/
 
 git clone $CLIENT/$EMU 
-cd /$EMU && sudo make clean install 
+cd $EMU/ && sudo make clean install 
 
 # install yay
 read -r -p "Want to install yay [yes/no]: " yay
@@ -85,4 +85,4 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 # done 
 clear
 echo "PLEASE MAKE .xinitrc TO LAUNCH"
-echo "use
+echo "use picture.jpg in your wm foler and apply it as wallpaper"
