@@ -12,7 +12,7 @@ echo "Doing a system update, cause stuff may break if not latest version"
 sudo pacman -Syu
 
 # install base-devel if not installed
-sudo pacman -S --needed git base-devel
+sudo pacman -S --needed git base-devel 
 
 # choose video driver
 echo "1) xf86-video-intel 	2) xf86-video-amdgpu 3) Skip"
@@ -35,7 +35,7 @@ case $vid in
 esac
 
 # install xorg if not installed
-sudo pacman -S --needed xorg xorg-xinit xorg-drivers $DRI
+sudo pacman -S --needed feh xorg xorg-xinit xorg-input $DRI
 
 # install fonts, window manager and terminal
 mkdir -p '~/.local/share/fonts'
@@ -104,4 +104,6 @@ sudo pacman -S --needed zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # done 
-echo "PLEASE MAKE .xinitrc TO LAUNCH 
+clear
+echo "PLEASE MAKE .xinitrc TO LAUNCH"
+echo "use
