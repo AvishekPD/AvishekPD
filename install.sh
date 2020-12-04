@@ -51,8 +51,10 @@ clear
 git clone $CLIENT/$WM 
 cd $WM/ && sudo make clean install
 
+cd ~/.srcs 
+
 git clone $CLIENT/$EMU 
-cd ../$EMU/ && sudo make clean install 
+cd /$EMU && sudo make clean install 
 
 # install yay
 read -r -p "Want to install yay [yes/no]: " yay
