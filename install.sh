@@ -35,7 +35,7 @@ case $vid in
 esac
 
 # install xorg if not installed
-sudo pacman -S --needed feh xorg xorg-xinit xorg-input $DRI
+sudo pacman -S --needed feh xorg xorg-xinit xorg-xinput $DRI
 
 # install fonts, window manager and terminal
 mkdir -p '~/.local/share/fonts'
