@@ -44,15 +44,15 @@ mkdir -p ~/.srcs
 cd ~/.srcs 
 
 git clone $CLIENT/$FONT 
-mv ~/.srcs/fonts/* .local/share/fonts/
+mv fonts/* .local/share/fonts/
 fc-cache
 clear 
 
 git clone $CLIENT/$WM 
-cd ~/.srcs/$WM && sudo make clean install
+cd $WM/ && sudo make clean install
 
 git clone $CLIENT/$EMU 
-cd ~/.srcs/$EMU && sudo make clean install 
+cd ../$EMU/ && sudo make clean install 
 
 # install yay
 read -r -p "Want to install yay [yes/no]: " yay
