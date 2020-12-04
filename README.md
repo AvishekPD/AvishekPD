@@ -2,7 +2,7 @@
 ---
 <p align="center">
 	<img 
-		width="969"
+		width="1080"
 	 src="./picture.jpg">
 </p>
 
