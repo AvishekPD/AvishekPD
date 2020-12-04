@@ -46,10 +46,12 @@ mv ~/.srcs/fonts/* .local/share/fonts/
 fc-cache
 clear 
 
-git clone $CLIENT/$WM ~/.src/$WM
+cd ~/.srcs
+
+git clone $CLIENT/$WM 
 cd ~/.srcs/$WM && sudo make clean install
 
-git clone $CLIENT/$EMU ~.src/$EMU
+git clone $CLIENT/$EMU 
 cd ~/.srcs/$EMU && sudo make clean install 
 
 # install yay
