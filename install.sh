@@ -18,31 +18,41 @@ sudo pacman -S --needed git base-devel
 echo "1) xf86-video-intel 	2) xf86-video-amdgpu 3) Skip"
 read -r -p "Choose you video card(default 1)(will not re-install): " vid
 
-if [ $vid == 1 ]
-then 
-	DRI=xf86-video-intel
-elif [ $vid == 2 ]
-then 
-	DRI=xf86-video-amdgpu
-elif [ $vid == 3 ]
-then
-	DRI=
-else
-	DRI=xf86-video-intel
-fi	
+case $vid in 
+[1])
+	DRI="xf86-video-intel"
+	;;
+
+[2])
+	DRI="xf86-video-amdgpu"
+	;;
+[3])
+	DRI=""
+	;;
+[*])
+	DRI="xf86-vieo-intel"
+	;;
+esac
 
 # install xorg if not installed
 sudo pacman -S --needed xorg xorg-xinit xorg-drivers $DRI
 
-# install fonts
-$FONTS 
-mkdir -p ~/.local/share/fonts
-mv /fonts/* .local/share/fonts
-fc-cache
+# install fonts, window manager and terminal
+mkdir ~/.local 
+mkdir ~/.local/share 
+mkdir ~/.local/share/fonts
+mkdir ~/.srcs
 
-mkdir -p ~/.srcs/ && $WM & $TERM
+$FONTS 
+mv /fonts/* .local/share/fonts/
+clear 
+fc-cache
+clear 
+
+$WM & $TERM
 cd ~/.srcs/dwm/
 sudo make clean install
+
 cd ~/.srcs/st/
 sudo make clean install
 
@@ -73,7 +83,7 @@ read -r -p "Do you want to install tilda? [Yes/no]: " tilda
 case $tilda in
 [yY][eE][sS]|[yY])
 	# make and installing tilda 
-	$TILDA & cd ~/.srcs/tilda
+	$TILDA && cd ~/.srcs/tilda
 	mkdir build
 	cd build
 	../autogen.sh --prefix=/usr
@@ -85,7 +95,7 @@ case $tilda in
 	;;
 
 [*])
-	$TILDA & cd ~/.srcs/tilda
+	$TILDA && cd ~/.srcs/tilda
 	mkdir build
 	cd build
 	../autogen.sh --prefix=/usr
