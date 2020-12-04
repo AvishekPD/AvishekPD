@@ -58,6 +58,8 @@ cd $EMU/ && sudo make clean install
 
 # install yay
 read -r -p "Want to install yay [yes/no]: " yay
+echo "Please replace libxft with libxft-bgra in next install" 
+sleep 3
 
 case $yay in
 [yY][eE][sS]|[yY])
@@ -69,10 +71,12 @@ case $yay in
 
 [nN][oO]|[nN])
 	echo "okay... :c"
+	yay -S picom-ibhagwan-git libxft-bgra-git
 	;;
 
 [*])
 	echo "Skipping" 
+	yay -S picom-ibhagwan-git libxft-bgra-git
 	sleep 1
 	;;
 esac
