@@ -6,13 +6,14 @@ CLIENT=https://github.com/AvishekPD
 WM=dwm
 EMU=st
 FONT=fonts
+EXT=dwmblocks
 
 # does full system update
 echo "Doing a system update, cause stuff may break if not latest version"
 sudo pacman -Syu
 
 # install base-devel if not installed
-sudo pacman -S --needed git base-devel 
+sudo pacman -S --noconfirm --needed git base-devel 
 
 # choose video driver
 echo "1) xf86-video-intel 	2) xf86-video-amdgpu 3) Skip"
@@ -35,7 +36,7 @@ case $vid in
 esac
 
 # install xorg if not installed
-sudo pacman -S --needed feh xorg xorg-xinit xorg-xinput $DRI
+sudo pacman -S --noconfirm --needed feh xorg xorg-xinit xorg-xinput $DRI
 
 # install fonts, window manager and terminal
 mkdir -p ~/.local/share/fonts
@@ -56,6 +57,11 @@ cd ~/.srcs/
 git clone $CLIENT/$EMU 
 cd $EMU/ && sudo make clean install 
 
+cd ~/.srcs/
+
+git clone $CLIENT/$EXT
+cd $EXT/ && sudo make clean install
+
 # install yay
 read -r -p "Want to install yay [yes/no]: " yay
 echo "Please replace libxft with libxft-bgra in next install" 
@@ -63,26 +69,26 @@ sleep 3
 
 case $yay in
 [yY][eE][sS]|[yY])
-	cd ~ && git clone https://aur.archlinux.org/yay.git
-	cd ~/yay/ && makepkg -si 
+	cd ~/srcs && git clone https://aur.archlinux.org/yay.git
+	cd ~/.srcs/yay/ && makepkg -si 
 
-	yay -S picom-ibhagwan-git libxft-bgra-git
+	yay -S --noconfirm picom-ibhagwan-git libxft-bgra-git
 	;;
 
 [nN][oO]|[nN])
 	echo "okay... :c"
-	yay -S picom-ibhagwan-git libxft-bgra-git
+	yay -S --noconfirm picom-ibhagwan-git libxft-bgra-git
 	;;
 
 [*])
 	echo "Skipping" 
-	yay -S picom-ibhagwan-git libxft-bgra-git
+	yay -S --noconfirm picom-ibhagwan-git libxft-bgra-git
 	sleep 1
 	;;
 esac
 
 # install zsh and make is default
-sudo pacman -S --needed zsh
+sudo pacman --noconfirm --needed -S zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
