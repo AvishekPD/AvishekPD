@@ -69,8 +69,8 @@ sleep 3
 
 case $yay in
 [yY][eE][sS]|[yY])
-	cd ~/srcs && git clone https://aur.archlinux.org/yay.git
-	cd ~/.srcs/yay/ && makepkg -si 
+	cd ~/.srcs && git clone https://aur.archlinux.org/yay.git
+	cd ./yay/ && makepkg -si 
 
 	yay -S --noconfirm picom-ibhagwan-git libxft-bgra-git
 	;;
