@@ -93,8 +93,9 @@ clear
 echo "PLEASE MAKE .xinitrc TO LAUNCH" > ~/Note.txt
 echo "use picture.jpg in your wm foler and apply it as wallpaper" >> ~/Note.txt 
 echo "run 'p10k configure' to set up your zsh" >> ~/Note.txt
+echo "after you this -> 'git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k'" >> ~/Note.txt
 
 # install zsh and make is default
 sudo pacman --noconfirm --needed -S zsh
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
