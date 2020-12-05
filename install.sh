@@ -72,17 +72,17 @@ case $yay in
 	cd ~/.srcs && git clone https://aur.archlinux.org/yay.git
 	cd ./yay/ && makepkg -si 
 
-	yay -S --noconfirm picom-ibhagwan-git libxft-bgra-git
+	yay -S picom-ibhagwan-git libxft-bgra-git
 	;;
 
 [nN][oO]|[nN])
 	echo "okay... :c"
-	yay -S --noconfirm picom-ibhagwan-git libxft-bgra-git
+	yay -S picom-ibhagwan-git libxft-bgra-git
 	;;
 
 [*])
 	echo "Skipping" 
-	yay -S --noconfirm picom-ibhagwan-git libxft-bgra-git
+	yay -S picom-ibhagwan-git libxft-bgra-git
 	sleep 1
 	;;
 esac
