@@ -10,7 +10,7 @@ EXT=dwmblocks
 
 # does full system update
 echo "Doing a system update, cause stuff may break if not latest version"
-sudo pacman -Syu
+sudo pacman --noconfirm -Syu
 
 # install base-devel if not installed
 sudo pacman -S --noconfirm --needed git base-devel 
