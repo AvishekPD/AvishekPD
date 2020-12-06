@@ -3,8 +3,10 @@
 <p align="center">
 	<img 
 		width="1080"
+		alt="menow"
 	 src="./picture.jpg">
 </p>
+
 
 ## About Me
 <p align="left">
