@@ -93,6 +93,11 @@ case $yay in
 	;;
 esac
 
+#install custom picom config file 
+mkdir -p .config/picom/
+cd .config/picom/
+git clone https://gist.github.com/f70dea1449cfae856d42b771912985f9.git
+
 clear
 
 # done 
