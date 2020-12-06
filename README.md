@@ -1,8 +1,8 @@
 ### Hello! My name is Avishek, And I am a learner
 ---
-<p align="center">
+<p align="centre">
 	<img 
-		width="1080"
+		width=900"
 		alt="menow"
 	 src="./picture.jpg">
 </p>
