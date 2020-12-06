@@ -1,7 +1,7 @@
 #!/bin/env bash
 
-sudo pacman -S figlet
 echo "Welcome!" && sleep 2
+sudo pacman -S figlet
 
 echo "###########################################################################"
 figlet -f big "Kiriyama"
