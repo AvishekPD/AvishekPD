@@ -1,5 +1,11 @@
 #!/bin/env bash
+
+sudo pacman -S figlet
 echo "Welcome!" && sleep 2
+
+echo "###########################################################################"
+figlet -f big "Kiriyama"
+echo "###########################################################################"
 
 # aliases
 CLIENT=https://github.com/AvishekPD
