@@ -37,7 +37,7 @@ case $vid in
 	DRI=""
 	;;
 [*])
-	DRI='xf86-vieo-intel'
+	DRI='xf86-video-intel'
 	;;
 esac
 
