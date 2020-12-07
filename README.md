@@ -2,7 +2,7 @@
 ---
 <p align="centre">
 	<img 
-		width=600"
+		width=550"
 		alt="menow"
 	 src="./picture.jpg">
 </p>
