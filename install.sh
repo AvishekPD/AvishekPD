@@ -1,11 +1,6 @@
 #!/bin/env bash
 
 echo "Welcome!" && sleep 2
-sudo pacman -S figlet
-
-echo "###########################################################################"
-figlet -f big "Kiriyama"
-echo "###########################################################################"
 
 # aliases
 CLIENT=https://github.com/AvishekPD
@@ -16,7 +11,11 @@ EXT=dwmblocks
 
 # does full system update
 echo "Doing a system update, cause stuff may break if not latest version"
-sudo pacman --noconfirm -Syu
+sudo pacman --noconfirm -Syu figlet
+
+echo "###########################################################################"
+figlet -f big "Kiriyama"
+echo "###########################################################################"
 
 # install base-devel if not installed
 sudo pacman -S --noconfirm --needed git base-devel 
