@@ -12,7 +12,7 @@
 <p align="left">
 Hello there! My name is Avishek and I am currently learning various stuff. I like to programme in C and python. Machine will 100% will rule the humanity. Hail!Robotism! <br>
 
-Currently learning to become h@k0r!. Want to learn Rust and Java!<br>
+Currently learning Rust!. Want to learn Java!<br>
 
 Loves <b><i>C</i></b> very very much!
 
@@ -32,6 +32,10 @@ To install my current working enviourment I am using right now, just copy then c
 
 ```shell
 sh -c "$(wget -O- https://raw.githubusercontent.com/AvishekPD/AvishekPD/main/install.sh)"
+```
+or can either use curl
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/AvishekPD/AvishekPD/main/install.sh)"
 ```
 </p>
 
