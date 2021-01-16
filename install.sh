@@ -93,9 +93,9 @@ case $yay in
 esac
 
 #install custom picom config file 
-mkdir -p .config/picom/
-cd .config/picom/
-git clone https://gist.github.com/f70dea1449cfae856d42b771912985f9.git ./dwm.picom.conf
+mkdir -p ~/.config/picom/
+cd ~/.config/picom/
+git clone https://gist.github.com/f70dea1449cfae856d42b771912985f9.git 
 
 clear
 
@@ -110,4 +110,4 @@ cd ~/
 # install zsh and make is default
 sudo pacman --noconfirm --needed -S zsh
 
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
