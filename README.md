@@ -10,7 +10,7 @@
 
 ## About Me
 <p align="left">
-Hello there! My name is Avishek and I am currently learning various stuff. I like to programme in C and python. Machine will 100% will rule the humanity. Hail!Robotism! <br>
+Hello there! My name is Avishek and I am currently learning various stuff. I like to programme in C and Rust. Machine will 100% will rule the humanity. Hail!Robotism! <br>
 
 Currently learning Rust!. Want to learn Java!<br>
 
