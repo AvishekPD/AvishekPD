@@ -24,27 +24,10 @@ Also I love to rice my machine randomly once or twice a month, so check them out
 
 You can chat or have a talk with me by using the social links given below! Beware imma Weeb! <br>
 
-## Install my current config
-
-`For ARCH and ARCH based only` <br>
-To install my current working enviourment I am using right now, just copy then command below and paste it in you term<br>
-<b><i>(must have wget installed)</i></b>.
-
-```shell
-sh -c "$(wget -O- https://raw.githubusercontent.com/AvishekPD/AvishekPD/main/install.sh)"
-```
-or can either use curl
-```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/AvishekPD/AvishekPD/main/install.sh)"
-```
-</p>
-
 ---
 ## Contact or Chat with Me Here 
-- [<img align="left" alt="Avishek | Discord" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/discord.svg" />][Discord]
 - [<img align="left" alt="Youtube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/youtube.svg" />][Youtube]
 - [<img align="left" alt="Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.1/icons/twitter.svg" />][Twitter]
 
-[Discord]: https://discordapp.com/channels/@me/681910716789293083 
 [Youtube]: https://www.youtube.com/channel/UCkVhowlProN9ayzEMaBEKPQ
 [Twitter]: https://twitter.com/KiriyamaOsu
