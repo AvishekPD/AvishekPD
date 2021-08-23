@@ -1,4 +1,4 @@
-### Hello! My name is Avishek, And I am a learner
+### Hello! My name is Avishek, And Welcome to my git
 ---
 <p align="centre">
 	<img 
@@ -10,19 +10,19 @@
 
 ## About Me
 <p align="left">
-Hello there! My name is Avishek and I am currently learning various stuff. I like to programme in C and Rust. Machine will 100% will rule the humanity. Hail!Robotism! <br>
+Hello there! My name is Avishek and I am currently learning various stuff. I like to code in C and Rust. Machine will 100% will rule the humanity. Hail! Robotism! <br>  
 
-Currently learning Rust!. Want to learn Java!<br>
+Currently learning Rust!. Want to learn Java!  
 
-Loves <b><i>C</i></b> very very much!
+Loves <b><i>C</i></b> very very much!  
 
-Man this .NET is highly in demand~<br>
+Man this .NET is highly in demand~<br>  
 
-Having daily job crisis like any other programming newbie. Hope this open source community will accept me.<br>
+Hope this open source community will accept me.  
 
-Also I love to rice my machine randomly once or twice a month, so check them out too!<br>
+Also I love to rice my machine randomly once or twice a month, so check them out too!  
 
-You can chat or have a talk with me by using the social links given below! Beware imma Weeb! <br>
+You can chat or have a talk with me by using the social links given below!  
 
 ---
 ## Contact or Chat with Me Here 
