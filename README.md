@@ -15,7 +15,7 @@
 <p align="left">
 <a href="https://twitter.com/kiriyamaosu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kiriyamaosu" height="30" width="40" /></a>
 <a href="https://instagram.com/kiriyama.katsumi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="kiriyama.katsumi" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/uc3ayw1bynhaof2hnnb0epmw" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="uc3ayw1bynhaof2hnnb0epmw" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/UC3AYw1ByNhaOF2hnnb0EPmw" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="uc3ayw1bynhaof2hnnb0epmw" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
