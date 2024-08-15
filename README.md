@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/kiriyamaosu" target="blank"><img src="https://img.shields.io/twitter/follow/kiriyamaosu?logo=twitter&style=for-the-badge" alt="kiriyamaosu" /></a> </p>
 
-- 🌱 I’m currently learning **Rust and JS**
+- 🌱 I’m currently learning **Embedded Devices and Stuffs**
 
 - 📫 How to reach me **kunkiriyama@gmail.com**
 
